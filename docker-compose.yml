@@ -1,0 +1,7 @@
+services:
+  webapp:
+    build: .
+    image: "newapp"
+    ports:
+    - "5000:5000"
+    container_name: "monolithic-app"
